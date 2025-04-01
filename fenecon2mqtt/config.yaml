@@ -3,7 +3,7 @@ name: Fenecon2Mqtt
 version: "0.0.1-S83 TEST ONLY"
 slug: fenecon2mqtt
 description: Provides data from Fenecon Home Websocket as a Homeassistant device and HA entities. Fenecons channels are configurable.
-url: "https://github.com/Skeletitor/ha_addon_fenecon2mqtt"
+url: "https://github.com/stefan73/ha_addon_fenecon2mqtt"
 arch:
   - armhf
   - armv7
@@ -101,4 +101,4 @@ schema:
       value_template: str?
   log_level: list(CRITICAL|ERROR|WARNING|INFO|DEBUG|NOTSET)
 ## comment the next line for local development
-image: "ghcr.io/skeletitor/{arch}-addon-fenecon2mqtt"
+#image: "ghcr.io/skeletitor/{arch}-addon-fenecon2mqtt"
