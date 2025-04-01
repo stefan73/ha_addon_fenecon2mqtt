@@ -127,6 +127,7 @@ class FeneconClient:
                 except Exception:
                     logger.error("Dump Fenecon configration to local docker filesystem failed")
             return
+        time.sleep(0.1)
         #elif msg_id == self.uuid_str_getComponentChannels_req:
         #    logger.info("Channel received for component -> purge old Homeassistant discovery topic")
         #    return
