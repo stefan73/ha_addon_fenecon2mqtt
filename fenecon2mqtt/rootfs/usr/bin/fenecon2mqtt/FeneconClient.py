@@ -129,7 +129,7 @@ class FeneconClient:
 
                 self.queue.task_done()
             except Exception as e:
-                self.logger.error(f"Fehler bei Verarbeitung: {e}")
+                self.logger.error(f"Exception in message handling: {e}")
             time.sleep(0.01)
 
     def on_error(self, ws, error):
